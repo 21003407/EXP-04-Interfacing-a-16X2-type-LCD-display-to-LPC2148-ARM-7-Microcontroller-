@@ -1,8 +1,7 @@
 # EXP-04-Interfacing a 16X2 type LCD display to LPC2148 ARM 7Microcontroller
 
-Name : Easwar.J
-
-Roll no : 212221230024
+Name : joans jay authers A
+Roll no : 212221240019
 
 Date of experiment : 14/10/22
 
@@ -185,9 +184,9 @@ int main(void)
 {
 	
 	LCD_INIT();
-	LCD_STRING("Welcome to AI&DS");
+	LCD_STRING("Welcome to AI&ML");
 	LCD_CMD(0XC0);
-	LCD_STRING("212221230024");
+	LCD_STRING("212221240019");
 	
 	return 0;
 }
@@ -195,17 +194,16 @@ int main(void)
 
 ## Proteus simulation 
 ## LCD OFF:
-![image](https://user-images.githubusercontent.com/94154683/195870759-85a94706-cbae-4763-acd4-df0a4b1021a4.png)
+![2](https://user-images.githubusercontent.com/94828208/198509668-2b069035-7325-4f43-9bda-eec1dd2408f7.jpg)
 
 
 ## LCD ON:
-![image](https://user-images.githubusercontent.com/94154683/195870633-55bc0f40-3c17-4db9-ab94-533449fc3a27.png)
+![1](https://user-images.githubusercontent.com/94828208/198509735-8e810ab0-e81e-4ef6-bad4-fcf00773dbb7.jpg)
 
 
 ##  layout Diagram 
-![image](https://user-images.githubusercontent.com/94154683/195871187-1c58d801-f116-4a4f-afda-eb63a5f9592b.png)
 
-
+![3](https://user-images.githubusercontent.com/94828208/198509831-b60f05e5-cd21-49cb-b83d-65ed8500ca04.jpg)
 
 ## Result :
 
